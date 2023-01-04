@@ -22,6 +22,5 @@ class GroupViewSet(viewsets.ModelViewSet):
     """
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
-    file_class = GroupFile
     permission_classes = [permissions.IsAuthenticated]
 # Create your views here.
